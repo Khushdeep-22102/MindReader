@@ -33,11 +33,9 @@ def preprocess_text(text):
     return ' '.join(words)
 
 # Load dataset
-<<<<<<< HEAD
+
 file_path = r'data/emotion-emotion_69k.csv'  # Update with your dataset's path
-=======
-file_path = r'data\emotion-emotion_69k.csv'  # Update with your dataset's path
->>>>>>> 631208bf4a71d5c4b81c524a65c62f94d54d3390
+
 df = pd.read_csv(file_path)
 
 # Apply preprocessing to the 'Situation' column
@@ -94,19 +92,12 @@ X_val_embeddings = get_sbert_embeddings(X_val_texts)
 X_test_embeddings = get_sbert_embeddings(X_test_texts)
 
 # Save embeddings and labels to files
-<<<<<<< HEAD
+
 np.save(r'data/X_train_embeddings.npy', X_train_embeddings)
 np.save(r'data/X_val_embeddings.npy', X_val_embeddings)
 np.save(r'data/X_test_embeddings.npy', X_test_embeddings)
 np.save(r'data/y_train.npy', y_train)
 np.save(r'data/y_val.npy', y_val)
 np.save(r'data/y_test.npy', y_test)
-=======
-np.save(r'data\X_train_embeddings.npy', X_train_embeddings)
-np.save(r'data\X_val_embeddings.npy', X_val_embeddings)
-np.save(r'data\X_test_embeddings.npy', X_test_embeddings)
-np.save(r'data\y_train.npy', y_train)
-np.save(r'data\y_val.npy', y_val)
-np.save(r'data\y_test.npy', y_test)
->>>>>>> 631208bf4a71d5c4b81c524a65c62f94d54d3390
+
 print("Embeddings and labels saved.")

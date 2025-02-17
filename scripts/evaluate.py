@@ -8,11 +8,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 
 # Load dataset and embeddings
-<<<<<<< HEAD
+
 DATASET_PATH = "data/preprocessed_emotion_data.csv"
-=======
-DATASET_PATH = "data\preprocessed_emotion_data.csv"
->>>>>>> 631208bf4a71d5c4b81c524a65c62f94d54d3390
+
 EMBEDDINGS_TEST_PATH = "data/X_test_embeddings.npy"
 y_test_path = "data/y_test.npy"
 

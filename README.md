@@ -5,13 +5,8 @@ This repository contains the code and data for an emotion detection project usin
 
 ## Project Description
 
-<<<<<<< HEAD
 This project leverages the Empathetic Dialogues dataset, a publicly available dataset on [Kaggle](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai) consisting of 25,000 conversations grounded in emotional situations. Each data point includes:
-=======
-This project leverages the Empathetic Dialogues dataset, a publicly available dataset on [Kaggle](https://www.kaggle.com/datasets/parulpandey/emotion-dataset) consisting of 25,000 conversations grounded in emotional situations. Each data point includes:
->>>>>>> 631208bf4a71d5c4b81c524a65c62f94d54d3390
   
-
 - **Situation**: A brief context describing the emotional scenario.  
 - **Emotion**: The dominant emotion expressed in the dialogue (e.g., sentimental, excited).  
 - **Empathetic Dialogues**: Exchanges between a customer and an agent, emphasizing empathy in responses.  
